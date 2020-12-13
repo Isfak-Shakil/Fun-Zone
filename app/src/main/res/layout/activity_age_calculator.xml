@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/_10sdp"
+    tools:context=".AgeCalculator">
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold|italic"
+        android:text="Choose Your BirthDate and Today's Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_birthId"
+            android:text="01/01/2020"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/arrow_low"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="To"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn_todayId"
+            android:textSize="20sp"
+            android:drawableEnd="@drawable/arrow_low"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculate_BtnId"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="Calculate"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/result_txtViewId"
+        android:text="0 Years|0 Months|0 Days"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

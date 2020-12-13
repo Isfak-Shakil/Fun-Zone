@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(MainActivity.this,CurrencyConverter.class));
         }
         else if (v.getId()==R.id.card_2_Id){
+            startActivity(new Intent(MainActivity.this,AgeCalculator.class));
         }
         else if (v.getId()==R.id.card_3_Id){
                 startActivity(new Intent(MainActivity.this,TicTacToe.class));
