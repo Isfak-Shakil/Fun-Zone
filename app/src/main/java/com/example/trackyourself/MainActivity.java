@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v.getId()==R.id.card_1_Id){
-
+            startActivity(new Intent(MainActivity.this,CurrencyConverter.class));
         }
         else if (v.getId()==R.id.card_2_Id){
         }
