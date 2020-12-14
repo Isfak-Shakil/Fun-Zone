@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <Spinner
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:id="@+id/spinnerFromId"
             android:ems="10"
             android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <Spinner
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:id="@+id/spinnerToId"
             android:ems="10"
             android:layout_width="wrap_content"
@@ -86,9 +86,9 @@
             android:id="@+id/convertButtonId"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:padding="5dp"
+            android:padding="@dimen/_5sdp"
             android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="@dimen/_25sdp"
             android:textColor="#E91E63"
             android:text="Convert"
             android:layout_width="wrap_content"
